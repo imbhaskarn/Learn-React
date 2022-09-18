@@ -1,0 +1,48 @@
+html, * {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    font-family: 'Inter', sans-serif;
+}
+.container{
+    background: #282D35;
+    height: 100vh;
+}
+
+.navbar{
+    padding: 0px 10%;
+    display: block;
+    background: #21222A;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    color: white;
+    height: 100px;
+}
+
+.main-container{
+    padding: 60px 10%;
+    background: url('./images/reactjs-icon.svg') no-repeat bottom 2rem right;
+    background-size: 200px;
+    height: auto;
+    color: white;
+    font-size: 1.3rem;
+    z-index: 100;
+}
+h2 {
+    font-size: 2rem;
+}
+.main-list{
+    padding: 40px 50px;
+}
+.ml-item{
+    padding: 10px 0px;
+}
